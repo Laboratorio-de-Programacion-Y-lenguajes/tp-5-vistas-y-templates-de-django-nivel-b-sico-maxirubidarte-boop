@@ -1,8 +1,6 @@
 from django.urls import path
 from . import views
 
-# TODO: Asignar el namespace de la app.
-# Esto permite usar {% url 'publicaciones:inicio' %} en los templates.
 app_name = "publicaciones"
 
 urlpatterns = [

@@ -1,7 +1,7 @@
 {%  extends "base.html" %}
 {%  block content %}
     <h1>Lista de Publicaciones</h1>
-    {% for pub in publicacion_list %}
+    {% for pub in lista_publicaciones %}
         <div>
             <h2>{{ pub.titulo }}</h2>
             <p>Autor: {{ pub.autor }}</p>

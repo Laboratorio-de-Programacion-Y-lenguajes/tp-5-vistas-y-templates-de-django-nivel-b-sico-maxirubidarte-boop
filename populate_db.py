@@ -6,7 +6,7 @@ Uso:
 
 O desde el shell interactivo:
     python manage.py shell
-    >>> exec(open('populate_db.py').read())
+    >>> exec(open('populate_db.py', encoding='utf-8').read())
 """
 
 import datetime
